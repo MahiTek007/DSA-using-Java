@@ -3,7 +3,7 @@ package Array.Sorting.quickSort;
 public class P1 {
     public static void main(String[] args) {
         int nums [] = {1,233,4,5,673,3323,567,8,7,2};
-
+ 
         System.out.println("Original Array: ");
         for (int i : nums) {
             System.out.print(i+" ");

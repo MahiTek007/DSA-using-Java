@@ -10,7 +10,7 @@ public class P1 {
         }
         System.out.println();
 
-        sort(nums);
+        sort(nums); 
 
         System.out.println("Sorted Array");
         for (int i : nums) {
