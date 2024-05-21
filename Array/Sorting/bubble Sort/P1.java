@@ -5,7 +5,7 @@
 public class P1 {
 
     public static void main(String[] args) {
-        int nums [] = {1,2,3,4,5,5,67,774,6,654,5,2};
+        int nums [] = new RandomArray(10,100).getArr();
 
         System.out.print("Original Array: \t");
         for (int i : nums) {
@@ -26,7 +26,6 @@ public class P1 {
     private static void sort(int[] nums) {
         //1,2,3,4,5,5,67,774,6,654,5,2
 //      Bubble Sort
-
 
         int temp=0;
         for (int i = 0; i < nums.length; i++) {
