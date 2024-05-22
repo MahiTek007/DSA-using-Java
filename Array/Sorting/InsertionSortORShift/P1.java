@@ -24,13 +24,13 @@ public class P1 {
         // Insertion Sort
 
         for (int i = 1; i < nums.length; i++) {
-            int key=nums[i];
+            int temp=nums[i];
             int j=i-1;
-            while (nums[j]>key && j>=0) {
+            while (nums[j]>temp && j>=0) {
                 nums[j+1]=nums[j];
                 j--;
             }
-            nums[j+1]=key;
+            nums[j+1]=temp;
         }
 
     }

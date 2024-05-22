@@ -1,3 +1,6 @@
+
+import Array.randomArray.RandomArray;
+
 /**
  * P1
  * 
@@ -5,7 +8,8 @@
 public class P1 {
 
     public static void main(String[] args) {
-        int nums [] = new RandomArray(10,100).getArr();
+        RandomArray random = new RandomArray(8, 100);
+        int nums [] = random.getArr();
 
         System.out.print("Original Array: \t");
         for (int i : nums) {
