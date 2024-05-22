@@ -19,7 +19,8 @@ public class RandomArray {
         arr = new int[sizeOfArray];
 
         for (int i = 0; i < arr.length; i++) {
-            arr[i]=random.nextInt(limit);
+            int newElement = random.nextInt(limit);
+                arr[i]=newElement;
         }
         return arr;
     }
